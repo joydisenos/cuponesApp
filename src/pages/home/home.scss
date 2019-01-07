@@ -1,0 +1,34 @@
+page-home {
+    .logo{
+        display: block;
+        max-width: 80%;
+        margin: 10px auto;
+    }
+    ion-content{
+        background: #e2edf7 !important;
+    }
+
+    .principal{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    .centered{
+        height: auto;
+        align-self: center;
+        width: 100%;
+        max-width: 500px;
+    }
+
+    ion-list , ion-item, button{
+        background:  #428bca !important;
+        color: #fff !important;
+        height: auto;
+    }
+    h1{
+        color:  #428bca;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba($color: #000000, $alpha: 0.3);
+    }
+}
